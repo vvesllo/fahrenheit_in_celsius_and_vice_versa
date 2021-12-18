@@ -13,7 +13,7 @@ int main()
 	if (option == 1) {
 		std::cout << "Enter temperature in Fahrenheit:\n";
 		std::cin >> Tf;
-		Tc = (Tf - 32) * (5/9);
+		Tc = (Tf - 32) * 5/9;
 		std::cout << Tf << "F° = " << Tc << "C°" << std::endl;
 	}
 	else if (option == 2) {
